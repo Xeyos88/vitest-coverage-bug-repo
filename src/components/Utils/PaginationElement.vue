@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import JsonTreeView from '@/components/Utils/JsonTree/JsonTreeView.vue'
+import { reactive, ref, watch } from 'vue'
 import { isUndefined } from 'lodash'
 
 const props = defineProps<{
@@ -33,6 +34,10 @@ watch(
     emits('update:length', newLength)
   }
 )
+
+const state = reactive({
+  json: `{"string":"text","number":123,"boolean":true,"array":["A","B","C"],"object":{"prop1":"value1","nestedObject":{"prop2":"value2"}}}`,
+})
 </script>
 
 <template>
@@ -47,6 +52,7 @@ watch(
       </div>
     </span>
   </div>
+  <JsonTreeView :data="state.json" :maxDepth="3" />
 </template>
 <style scoped>
 .pagination {

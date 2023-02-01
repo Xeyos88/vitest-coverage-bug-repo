@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuites name="vitest tests" tests="1" failures="0" errors="0" time="2.434">
-    <testsuite name="vitest/__tests__/components/Utils/PaginationElement.spec.ts" timestamp="2023-02-01T09:02:22.131Z" hostname="ALW-210" tests="1" failures="0" errors="0" skipped="0" time="0.006">
-        <testcase classname="vitest/__tests__/components/Utils/PaginationElement.spec.ts" name="Test PaginationElement component &gt; should pagination emits events" time="0.005">
-        </testcase>
-    </testsuite>
-</testsuites>
