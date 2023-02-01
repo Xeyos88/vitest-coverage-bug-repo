@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="1" failures="1" errors="0" time="2.417">
+    <testsuite name="vitest/__tests__/components/Utils/PaginationElement.spec.ts" timestamp="2023-02-01T08:55:30.681Z" hostname="ALW-210" tests="1" failures="1" errors="0" skipped="0" time="0.01">
+        <testcase classname="vitest/__tests__/components/Utils/PaginationElement.spec.ts" name="Test PaginationElement component &gt; should pagination emits events" time="0.008">
+            <failure message="wrapper.vm.setCurrent is not a function" type="TypeError">
+TypeError: wrapper.vm.setCurrent is not a function
+ ❯ vitest/__tests__/components/Utils/PaginationElement.spec.ts:15:22
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="1" failures="0" errors="0" time="19.8">
+    <testsuite name="vitest/__tests__/components/Utils/PaginationElement.spec.ts" timestamp="2023-02-01T08:55:48.044Z" hostname="ALW-210" tests="1" failures="0" errors="0" skipped="0" time="0.006">
+        <testcase classname="vitest/__tests__/components/Utils/PaginationElement.spec.ts" name="Test PaginationElement component &gt; should pagination emits events" time="0.004">
+        </testcase>
+    </testsuite>
+</testsuites>
